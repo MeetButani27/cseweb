@@ -34,7 +34,7 @@ const pool = mysql.createPool({
     connectionLimit: 10,
     host: process.env.HOST,
     user: process.env.USER,
-    password: process.env.PASSWORD,
+    password: '',
     port: '3306',
     database: 'cspit_cse'
 });
